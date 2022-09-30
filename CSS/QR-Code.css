@@ -1,0 +1,58 @@
+/* Start Global */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* End Global */
+/* Start QR */
+.container {
+    width: 375px;
+    /* margin: 50px auto; */
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+@media (max-width: 767px) {
+    .container {
+        width: 300px;
+    }
+}
+.container .qr img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.container .qr p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+.container .qr p:first-of-type {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.container .qr p:last-of-type {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    line-height: 1.2; 
+    margin-bottom: 20px;
+}
+/* End QR */
+/* Start Attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(218, 44%, 22%);
+}
+/* End Attribution */
